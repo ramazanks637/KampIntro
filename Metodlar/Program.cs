@@ -36,9 +36,9 @@ namespace Metodlar
             sepetManager.Ekle(urun1);
             sepetManager.Ekle(urun2);
 
-            sepetManager.Ekle2("Armut", "Yeşil armut",12,10);
-            sepetManager.Ekle2("Elma", "Yeşil elma",12,9);
-            sepetManager.Ekle2("Karpuz", "diyarbakır Karpuzu",12,8);
+            //sepetManager.Ekle2("Armut", "Yeşil armut",12,10);
+            //sepetManager.Ekle2("Elma", "Yeşil elma",12,9);
+            //sepetManager.Ekle2("Karpuz", "diyarbakır Karpuzu",12,8);
 
         }
     }
