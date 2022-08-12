@@ -7,14 +7,15 @@ namespace Hafta3_Odev3
         static void Main(string[] args)
         {
             MusteriManager musteriManager = new MusteriManager();
-            
-            while (true)
+            int number = 0;
+            while (number!=4)
             {
+
                 Console.WriteLine("[1] Müşteri Ekle");
                 Console.WriteLine("[2] Müşteri Sil");
                 Console.WriteLine("[3] Müşteri Listele");
                 Console.WriteLine("[4] Programı Bitir");
-                int number = Convert.ToInt32(Console.ReadLine());
+                number = Convert.ToInt32(Console.ReadLine());
                 switch (number)
                 {
                     case 1:
@@ -26,8 +27,6 @@ namespace Hafta3_Odev3
                         break;
                     case 3:
                         musteriManager.Listele();
-                        break;
-                    case 4:
                         break;
                     default:
                         Console.WriteLine("Hatalı bir giriş yapıldı !!");
