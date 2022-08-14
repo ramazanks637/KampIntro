@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace Hafta5_Odev5
 {
-    interface IPlayerService
+    interface ICampaingService
     {
-        void Add(Player player);
-        void Update(Player player);
-        void Delete(Player player);
+        void Add(Campaing campaing);
+        void Delete(Campaing campaing);
+        void Update(Campaing campaing);
+
     }
 }
