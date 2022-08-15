@@ -4,14 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Hafta5_Odev5
+namespace Gercek_Hayatta_Interface_ve_Abstract.Entities
 {
-    class Player
+    public class Customer
     {
         public int Id { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
-        public long NationalId { get; set; }
-        public int DayToBirthday { get; set; }
+        public DateTime DateOfBirth { get; set; }
+        public string NationalityId { get; set; }
     }
 }

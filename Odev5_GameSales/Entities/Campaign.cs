@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Hafta5_Odev5
+namespace Odev5_GameSales.Entities
 {
-    class Campaing
+    public class Campaign
     {
         public int Id { get; set; }
-        public string CampaingName { get; set; }
-        public int DiscauntPrice { get; set; }
+        public string Name { get; set; }
+        public int CampaignAmount { get; set; }
 
     }
 }

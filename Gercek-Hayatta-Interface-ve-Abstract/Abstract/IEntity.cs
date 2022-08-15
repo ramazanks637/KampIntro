@@ -4,10 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Hafta5_Odev5
+
+namespace Gercek_Hayatta_Interface_ve_Abstract.Abstract
 {
-    interface IGameService
+    public interface IEntity
     {
-        void Sales(Player player, Game game, Campaing campaing);
+
     }
 }

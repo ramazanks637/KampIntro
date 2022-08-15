@@ -1,15 +1,18 @@
-﻿using System;
+﻿using Odev5_GameSales.Entities;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Hafta5_Odev5
+namespace Odev5_GameSales.Abstract
 {
-    interface IPlayerService
+    public interface IPlayerService
     {
         void Add(Player player);
-        void Update(Player player);
         void Delete(Player player);
+        void Update(Player player);
+        void ListPlayer();
     }
 }
+
