@@ -15,6 +15,7 @@ namespace Odev5_GameSales.Concrete
         public PlayerManager(IPlayerCheckService playerCheckService)
         {
             _playerCheckService = playerCheckService;
+
         }
 
         List<Player> players = new List<Player>();
